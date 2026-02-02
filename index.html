@@ -8,11 +8,11 @@
     <!-- Set canonical address" -->
     <link rel="canonical" href="" />
 
-    <!-- Critical: ustaw theme jak najwcześniej (przed CSS), żeby uniknąć "flash" -->
+    <!-- Critical: set theme earliest posiible (before CSS), to avoid "flash" -->
     <script>
       (function () {
-        try {
-          // Jeśli data-theme już istnieje (np. z SSR), nie nadpisuj go
+        try {n
+          // If data-theme exsists (eg. z SSR), do not overwrite
           if (document.documentElement.hasAttribute('data-theme')) return;
 
           const saved = localStorage.getItem('theme');
@@ -21,7 +21,7 @@
             return;
           }
 
-          // preferencja systemowa jako fallback (bezpieczny optional chaining)
+          // sytem preference as fallback (secure optional chaining)
           const prefersDark = window.matchMedia?.(
             '(prefers-color-scheme: dark)',
           )?.matches;
@@ -30,7 +30,7 @@
             prefersDark ? 'dark' : 'light',
           );
         } catch (e) {
-          // localStorage może rzucać (np. w trybie prywatnym) — bezpieczny fallback
+          // localStorage may throw (eg. incognto window) — secure fallback
         }
       })();
     </script>
