@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited {
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+/* ======================================= */
+/* ROOT & BODY ========================== */
+/* ===================================== */
+:root {
+  --space-base: 4px;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  text-wrap: pretty;
+}
+
+@media (hover: hover) {
+}
+
+@media (max-width: 360px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 1920px) {
+}
