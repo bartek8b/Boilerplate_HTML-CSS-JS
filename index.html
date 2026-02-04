@@ -11,7 +11,8 @@
     <!-- Critical: set theme earliest posiible (before CSS), to avoid "flash" -->
     <script>
       (function () {
-        try {n
+        try {
+          n;
           // If data-theme exsists (eg. z SSR), do not overwrite
           if (document.documentElement.hasAttribute('data-theme')) return;
 
@@ -52,7 +53,8 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Scripts -> uncomment what is needed -->
-     <!-- <script src="theme-toggle.js" defer></script> -->
+    <!-- <script src="theme-toggle.js" defer></script> -->
+    <!-- <script src="menu-mobile.js" defer></script> -->
   </head>
 
   <body></body>
