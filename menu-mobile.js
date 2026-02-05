@@ -2,6 +2,15 @@
 //    HAMBURGER MENU
 // =====================
 
+// !!!important nav.show in .css must switch display to: flex;
+// nav.show {
+//     display: flex;
+//     animation: anim.-in;
+//   }
+//   nav.hide {
+//     animation: anim.-out;
+//   }
+
 // !!!important SET SELECTIORS
 const openNav = document.querySelector('');
 const closeNav = document.querySelector('');
