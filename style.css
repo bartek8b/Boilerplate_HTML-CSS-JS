@@ -8,18 +8,27 @@ html {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: var(--font);
 }
 a:visited {
   color: inherit;
 }
 button {
   cursor: pointer;
+  color: var(--font);
+}
+svg {
+  color: var(--font);
+  /* color: inherit; */
 }
 /* ======================================= */
 /* ROOT & BODY ========================== */
 /* ===================================== */
 :root {
   --space-base: 4px;
+
+  --font:   
+;
 }
 body {
   -webkit-tap-highlight-color: transparent;
