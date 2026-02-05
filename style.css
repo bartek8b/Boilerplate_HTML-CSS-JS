@@ -27,7 +27,7 @@ svg {
 :root {
   --space-base: 4px;
 
-  --font:   
+  --font:    
 ;
 }
 body {
@@ -59,4 +59,13 @@ body {
 }
 
 @media (min-width: 1920px) {
+}
+/* ====================================== */
+/* ANIMATIONS ========================== */
+/* ==================================== */
+
+@keyframes menu-slide-in {
+}
+
+@keyframes menu-slide-out {
 }
