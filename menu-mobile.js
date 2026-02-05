@@ -19,12 +19,12 @@ function setNavFocusable(isOpen) {
 function updateWidth() {
   const windowWidth = window.innerWidth;
   closeNav.style.display = 'none';
-  // !!!important SET PROPER CLASS NAME
-  nav.classList.remove('');
   if (windowWidth > 768) {
+    nav.style.display = 'flex';
     openNav.style.display = 'none';
     setNavFocusable(true);
   } else {
+    nav.style.display = 'none';
     openNav.style.display = 'flex';
     setNavFocusable(false);
   }
@@ -34,6 +34,8 @@ openNav.addEventListener('click', () => {
   openNav.style.display = 'none';
   closeNav.style.display = 'flex';
   // !!!important SET PROPER CLASS NAME
+  nav.style.display = 'flex';
+  nav.classList.remove('');
   nav.classList.add('');
 
   setNavFocusable(true);
@@ -53,6 +55,7 @@ closeNav.addEventListener('click', () => {
   closeNav.style.display = 'none';
   // !!!important SET PROPER CLASS NAME
   nav.classList.remove('');
+  nav.classList.add('');
 
   setNavFocusable(false);
 
@@ -89,7 +92,7 @@ function trapFocus(e) {
   );
 
   if (focusable.length === 0) return;
-  
+
   const first = focusable[0];
   const last = focusable[focusable.length - 1];
 
