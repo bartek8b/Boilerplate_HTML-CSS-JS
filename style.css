@@ -27,7 +27,7 @@ svg {
 :root {
   --space-base: 4px;
 
-  --font:    
+  --font:     
 ;
 }
 body {
@@ -49,13 +49,13 @@ body {
 /* ======================================= */
 /* RESPONSIVE-MEDIA-QUERIES ============= */
 /* ===================================== */
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
 }
 
 @media (max-width: 768px) {
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 360px) {
 }
 
 @media (min-width: 1920px) {
