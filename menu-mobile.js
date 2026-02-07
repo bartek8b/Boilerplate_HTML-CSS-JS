@@ -58,8 +58,6 @@ openNav.addEventListener('click', () => {
 });
 
 closeNav.addEventListener('click', () => {
-  openNav.setAttribute('aria-expanded', 'false');
-  nav.setAttribute('aria-hidden', 'true');
   openNav.style.display = 'flex';
   closeNav.style.display = 'none';
   // !!!important SET PROPER CLASS NAME
