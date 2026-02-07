@@ -1,3 +1,8 @@
+@font-face {
+  font-family: '';
+  src: url();
+  font-display: swap;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -27,7 +32,7 @@ svg {
 :root {
   --space-base: 4px;
 
-  --font:     
+  --font:        
 ;
 }
 body {
