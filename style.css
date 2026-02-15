@@ -32,12 +32,15 @@ svg {
 :root {
   --space-base: 4px;
 
-  --font:        
+  --font:           
 ;
 }
 body {
   -webkit-tap-highlight-color: transparent;
   text-wrap: pretty;
+  font-family:
+    system-ui, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji';
 }
 /* ======================================= */
 /* DARK-MODE============================= */
